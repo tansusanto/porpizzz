@@ -1,0 +1,400 @@
+/* desktop */
+@media only screen and (min-width:1200px){
+    .logo img{
+        width: 90px;
+    }
+    .menu-toggle{
+        display: none;
+    }
+    nav ul{
+        width: 30%;
+    }
+    .latar{
+        height: 100vh;
+    }
+    .latar2{
+        height: 120vh;
+    }
+    .latar4{
+        height: 110vh;
+    }
+    .latar5{
+        height: 140vh;
+    }
+    .latar6{
+        height: 50vh;
+    }
+}
+/* ukuran tablet */
+@media screen and (max-width:768px){
+
+}
+/* ukuran hp */ 
+@media screen and (max-width:375px){
+    /* navbar hp */
+    
+    .logo img{
+       width:50px;
+       margin-top: 15px;
+       margin-left: 40px;
+   }
+   .menu-toggle{
+    display: flex;
+    position: absolute;
+    right: 40px;
+    }
+    nav ul{
+        position: absolute;
+        left: 50px;
+        top: 0px;
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(10, 10, 10);
+        transform: translateX(88%);
+        transition: all 1s;
+        overflow-x: hidden;
+    }
+    nav ul.slide{
+        transform: translateX(0);
+        transition: all 1s;
+    }
+    nav a{
+        font-size: 20px;
+        position: absolute;
+        left: 100px;
+    }
+    .book{
+        display: none;
+    }
+    /* background */
+    .latar{
+        width: 100vw;
+        height: 100vh;
+    }
+    .latar1{
+        display: none;
+    }
+    .latar2{
+        position: absolute;
+        height: 150vh;
+        top: 100vh;
+    }
+    .latar3{
+        background-image: url(IMAGE/bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+        position: absolute;
+        top: 250vh;
+    }
+   .latar4{
+       display: none;
+   }
+   .latar5{
+       height: 150vh;
+       position: absolute;
+       top: 350vh;
+   }
+   .latar6{
+       display: none;
+   }
+   .konta{
+    background-image: url(IMAGE/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height:0vh;
+    position: absolute;
+    top: 360vh;
+   }
+    
+    /* end background */
+    /* home */
+    .home{
+        z-index: -1;
+        position: absolute;
+        left: 30px;
+        width: 400px;
+    }
+    .home h1{
+        font-size: 25px;
+    }
+    .home h2{
+        font-size: 30px;
+    }
+    .home p{
+        font-size: 12px;
+    }
+    .hom img{
+        display: none;
+    }
+    .leaf{
+        display: none;
+    }
+    .leaf1{
+        display: none;
+    }
+    .paprika{
+        display: none;
+    }
+    .powder{
+        display: none;
+    }
+    .powder1{
+        display: none;
+    }
+    /* end home */
+    /*  aabout */
+    
+    .tentang{
+        z-index: -1;
+        position: absolute;
+        left: 30px;
+        top: 450px;
+        width: 300px;
+    }
+    .tentang h1{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    .tentang h2{
+        margin-top: -25px;
+        font-size: 20px;
+    }
+    .tentang p{
+        width: 300px;
+       margin-top: 10px;
+        font-size: 13px;  
+    } 
+    .tentang button{
+        width: 80px;
+        height: 25px;
+        font-size: 13px;
+    }
+    .bubur{
+        display: none;
+    }
+    .gandum{
+        display: none;
+    }
+    .rice{
+        display: none;
+    }
+    .blueberry{
+        display: none;
+    }
+    /* end about */
+    /* menu */
+    .menu{
+        position: absolute;
+        top: 105%;
+        left: 60px;
+    }
+    .menu h1{
+        font-size: 40px;
+    }
+    .menu h2{
+        margin-top: -30px;
+        font-size: 25px;
+    }
+    .fitur{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        grid-gap: 120px 200px;
+        left: 25%;
+        top: 120%;
+    }
+    .special{
+        font-size: 18px;
+        text-align: center;
+        padding: 2px 2px;
+        width: 90px;
+        height: 15px;
+    }
+    .special p{
+        font-size: 12px;
+        text-align: left;
+        width: 150px;
+        margin-top: 10px;
+    }
+    .special1{
+        font-size: 14px;
+        text-align: center;
+        padding: 2px 2px;
+        width: 90px;
+        height: 15px;
+    }
+    .special1 p{
+        font-size: 12px;
+        text-align: left;
+        width: 450px;
+        margin-top: 10px;
+    }
+    .special2{
+        margin-top: -10px;
+        font-size: 14px;
+        text-align: center;
+        padding: 2px 2px;
+        width: 90px;
+        height: 15px;
+    }
+    .special2 p{
+        font-size: 12px;
+        text-align: left;
+        width: 450px;
+        margin-top: 10px;
+    }
+    .porridge{
+        font-size: 14px;
+        text-align: center;
+        padding: 2px 2px;
+        width: 90px;
+        height: 15px;
+    }
+    .porridge p{
+        font-size: 12px;
+        text-align: left;
+        width: 450px;
+        margin-top: 10px;
+    }
+    .porridge1{
+        font-size: 14px;
+        text-align: center;
+        padding: 2px 2px;
+        width: 90px;
+        height: 15px;
+    }
+    .porridge1 p{
+        font-size: 12px;
+        text-align: left;
+        width: 450px;
+        margin-top: 10px;
+    }
+    .pasta{
+        display: none;
+    }
+    .pizza{
+        display: none;
+    }
+    .chili{
+        display: none;
+    }
+    .daun{
+        display: none;
+    }
+    .daun1{
+        display: none;
+    }
+    /* end menu */
+    /* services */
+    .services{
+        position: absolute;
+        top: 210%;
+        left: 30%;
+    }
+    .services h1{
+        font-size: 40px;
+    }
+    .services h2{
+        margin-top: -30px;
+        font-size: 25px;
+    }
+    .layanan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 225%;
+        left: 5%;
+    }
+    layan img{
+        width: 6%;
+    }
+    layan h4{
+        font-size: 16px;
+    }
+    layan p{
+        font-size: 12px;
+    }
+    layan1 img{
+        width: 6%;
+    }
+    layan2 img{
+        width: 6%;
+    }
+    /*end  services */
+    /* book table */ 
+    .daftar{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+    .daftar1{
+        display: none;
+    }
+    .aja{
+        display: none;
+    }
+    /* end book table */
+    /* contact us */
+    .kontak{
+        position: absolute;
+        top: 70%;
+        left: 25%;
+    }
+    .kontak h1{
+        font-size: 40px;
+    }
+    .kontak h2{
+        margin-top: -30px;
+        font-size: 25px;
+    }
+    .kontak p:nth-child(3){
+        position: absolute;
+        top: 80vh;
+        left: -60px;
+        width: 350px;
+    }
+    .kontak p:last-child{
+        position: absolute;
+        top: 86vh;
+        left: -60px;
+        width: 350px;
+    }
+    .peta{
+        display: flex;
+        position: absolute;
+    }
+    /* end contact us */
+    /* bawah */
+    .logo1{
+        display: none;
+    }
+    .bawah{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        top: 455vh;
+        left: 30px;
+    }
+    .porpizz{
+        display: none;
+    }
+    
+    .media h1{
+        display: none;
+    }
+    /* end bawah */
+    /* footer */
+    footer{
+        display: none;
+    }
+    /* end footer */
+}
